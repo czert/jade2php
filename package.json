@@ -42,6 +42,6 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha --compilers coffee:coffee-script/register",
     "prepublish": "coffee -o lib -c src/*.coffee",
-    "install": "coffee -o lib -c src/*.coffee"
+    "install": "./node_modules/coffee-script/bin/coffee -o lib -c src/*.coffee"
   }
 }
