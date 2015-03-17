@@ -10,7 +10,6 @@
     "jade to php",
     "jade2php",
     "transpiler",
-    "coffee-script",
     "converter"
   ],
   "homepage": "https://github.com/SE7ENSKY/jade2php",
@@ -32,6 +31,7 @@
     "jade": "1.7.0",
     "js2php": "0.0.14",
     "mkdirp": "^0.5.0",
+    "coffee-script": "*",
     "monocle": "^1.1.51"
   },
   "devDependencies": {
@@ -43,6 +43,6 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha --compilers coffee:coffee-script/register",
     "prepublish": "coffee -o lib -c src/*.coffee",
-    "install": "./node_modules/coffee-script/bin/coffee -o lib -c src/*.coffee"
+    "install": "coffee -o lib -c src/*.coffee"
   }
 }
