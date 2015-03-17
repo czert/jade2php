@@ -10,6 +10,7 @@
     "jade to php",
     "jade2php",
     "transpiler",
+    "coffee-script": "*",
     "converter"
   ],
   "homepage": "https://github.com/SE7ENSKY/jade2php",
